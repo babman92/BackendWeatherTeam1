@@ -47,7 +47,7 @@ public class AdminController {
 			if(!service.isAdminExistsByEmailAndPassword(admin.getEmail(), admin.getPassword())) {
 				map.put("email",admin.getEmail());
 				result.setData(map);
-				result.setMessage("Account does not exist...");
+				result.setMessage("Account does not exist, please try again...");
 				return result;
 			}
 			
