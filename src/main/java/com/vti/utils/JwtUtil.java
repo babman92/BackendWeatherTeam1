@@ -32,7 +32,7 @@ import io.jsonwebtoken.UnsupportedJwtException;
  */	
 @Service
 public class JwtUtil implements Serializable {
-
+	// Update code to test heroku deployment
 	 private static Logger logger = LoggerFactory.getLogger(JwtUtil.class);
 	    private String SECRET_KEY = "secret";
 
